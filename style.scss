@@ -1,0 +1,60 @@
+html{
+    background-image: url(./mike-ko-tjod6u2RpiU-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    
+    
+}
+
+body{
+    width: 100%;
+    align-items: center;
+    display: flex;
+      flex: 1;
+    
+    // padding: 100px;
+    .clock{
+        width: 360px;
+        height: 360px;
+        
+        border-radius: 50%;
+        margin: 90px auto;
+        box-shadow:
+        0 0 0 4px rgba(0,0,0,0.1),
+        inset 0 0 0 3px #EFEFEF,
+        inset 0 0 10px black,
+        0 0 10px rgba(0,0,0,0.2);
+        position: relative;
+        
+        .clock-face{
+            position: relative;
+            height: 100%;
+            width: 100%;
+            background-image: url(./massimiliano-morosinotto-3i5PHVp1Fkw-unsplash.jpg);
+            background-size: cover;
+            border-radius: 50%;
+            box-shadow: 0 0 0 4px rgba(0,0,0,0.1),
+            inset 0 0 0 3px gray,
+            inset 0 0 10px black,
+            0 0 10px rgba(0,0,0,0.2) ;
+            
+            
+            .hand{
+                left: 5%;
+                top: 50%;
+                height: 6px;
+                width: 45%;
+                background-color: black;
+                position: absolute;
+                transform-origin: 100%;
+                transform: rotate(90deg);
+                transition: all 0.05;
+
+                
+
+
+            }
+        }
+    }
+}

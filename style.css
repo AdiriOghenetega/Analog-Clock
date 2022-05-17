@@ -1,0 +1,56 @@
+html {
+  background-image: url(./mike-ko-tjod6u2RpiU-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+body {
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+body .clock {
+  width: 360px;
+  height: 360px;
+  border-radius: 50%;
+  margin: 90px auto;
+  -webkit-box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.1), inset 0 0 0 3px #EFEFEF, inset 0 0 10px black, 0 0 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.1), inset 0 0 0 3px #EFEFEF, inset 0 0 10px black, 0 0 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+body .clock .clock-face {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-image: url(./massimiliano-morosinotto-3i5PHVp1Fkw-unsplash.jpg);
+  background-size: cover;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.1), inset 0 0 0 3px gray, inset 0 0 10px black, 0 0 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.1), inset 0 0 0 3px gray, inset 0 0 10px black, 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+body .clock .clock-face .hand {
+  left: 5%;
+  top: 50%;
+  height: 6px;
+  width: 45%;
+  background-color: black;
+  position: absolute;
+  -webkit-transform-origin: 100%;
+          transform-origin: 100%;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  -webkit-transition: all 0.05;
+  transition: all 0.05;
+}
+/*# sourceMappingURL=style.css.map */
